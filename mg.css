@@ -1,0 +1,37 @@
+
+body {
+    background-color:  #9ac3d9;
+   font-family:'Indie Flower', cursive;
+   color:#ffffff; 
+     }
+
+
+ #contenedorPadre{
+      font-family:'Indie Flower', cursive; 
+      display:flex;
+      margin: auto;
+      background-color: #9ac3d9;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+  }
+
+
+img{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+  
+  }
+
+  td{
+    height: 100px;
+  }
+
+ h2{
+    font-family:'Indie Flower', cursive;
+    color: white;
+    text-align: center;
+ }
+
